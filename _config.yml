@@ -1,0 +1,50 @@
+# Basic
+title: smx
+subtitle: 个人站
+#welcome_message: <a>  </a>
+# welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: 嗨，我是石梦星，13年开始从事iOS开发，现专注研究区块链技术。
+creator: <a>@smx</a>
+
+url: "https://smx.github.io"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    # - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: joyceSmx
+    # duoshuo:
+
+# Social
+social:
+  #  weibo: onevcat
+    github: joyceSmx
+  #  twitter: onevcat
+  #  gplus: 107108267983477358170
+    mail: smxjoyce@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
