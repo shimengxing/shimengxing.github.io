@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>smx</title>
+    <title>SMX</title>
     <description>嗨，我是石梦星，13年开始从事iOS开发，现专注研究区块链技术。</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Sep 2017 23:54:10 +0800</pubDate>
-    <lastBuildDate>Fri, 01 Sep 2017 23:54:10 +0800</lastBuildDate>
+    <pubDate>Sat, 02 Sep 2017 00:20:16 +0800</pubDate>
+    <lastBuildDate>Sat, 02 Sep 2017 00:20:16 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>

@@ -1,12 +1,12 @@
 # Basic
-title: smx
+title: SMX
 subtitle: 个人站
 #welcome_message: <a>  </a>
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: 嗨，我是石梦星，13年开始从事iOS开发，现专注研究区块链技术。
-creator: <a>@smx</a>
+creator: <a>@shimengxing</a>
 
-url: "https://smx.github.io"
+url: "https://shimengxing.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -33,13 +33,13 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: joyceSmx
+    disqus: shimengxing
     # duoshuo:
 
 # Social
 social:
   #  weibo: onevcat
-    github: joyceSmx
+    github: shimengxing
   #  twitter: onevcat
   #  gplus: 107108267983477358170
     mail: smxjoyce@gmail.com
