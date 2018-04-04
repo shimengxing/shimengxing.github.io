@@ -2,6 +2,8 @@
 layout: post
 title: MAC配置多个Github账号
 date: 2018-04-04 
+tags: Github
+categories: 工具
 ---
 ## 场景
 
