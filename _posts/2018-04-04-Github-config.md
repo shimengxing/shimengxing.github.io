@@ -13,7 +13,7 @@ categories: 工具
     
 假设已经拥有工作账号且已经使用正常，现在想添加另一个个人使用账号。
 
-###1.为工作账号生成SSH Key
+### 1.为工作账号生成SSH Key
 
 ```
 #在.ssh目录下执行
@@ -25,14 +25,14 @@ $ ssh-keygen -t rsa -C "your-email-address"
 #当执行上述命令出现，就可以在冒号后面输入新的名字：id_rsa_personal
 Enter file in which to save the key (/Users/xxx/.ssh/id_rsa): 
 ```
-###2.在personal github中添加ssh
+### 2.在personal github中添加ssh
 
 ```
 #登录github，选择Settings-->SSH and GPG Keys 添加ssh
 #title:任意输入
 #key：打开你生成的id_rsa_personal.pub文件，将其中所有的内容拷贝至此
 ```
-###3.添加并识别新的SSH keys私钥
+### 3.添加并识别新的SSH keys私钥
 
 ```
 #因为默认只读取id_rsa，为了让SSH识别新的私钥，需将其添加到SSH agent中
@@ -40,7 +40,7 @@ $ ssh-agent bash
 $ ssh-add ~/.ssh/id_rsa_personal
 ```
 
-###4.修改~/.ssh/config以添加多个ssh配置
+### 4.修改~/.ssh/config以添加多个ssh配置
 
 ```
 #如果.ssh目录下没有config文件，则新建config文件
@@ -60,7 +60,7 @@ Host personal.github.com
 #Hose:别名
 #HostName:git托管的平台url。
 ```
-###5.验证连接
+### 5.验证连接
 
 ```
 #ssh -T git@别名
@@ -73,7 +73,7 @@ Hi xxx! You've successfully authenticated, but GitHub does not provide shell acc
 #查看出错信息
 $ ssh -vT git@personal.github.com
 ```
-###6.应用
+### 6.应用
 对于personal下的项目，假设其ssh链接为：
 
 ```
