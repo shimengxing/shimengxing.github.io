@@ -1,5 +1,8 @@
-# MAC配置多个Github账号
-
+---
+layout: post
+title: MAC配置多个Github账号
+date: 2018-04-04 
+---
 ## 场景
 
 > 使用github的时候，需要给该账号添加一个SSH key才能访问。但是如果想在一台机器使用多个github账号（比如个人账号和工作账号）。这个时候怎么指定push到哪个账号的仓库上去呢？
