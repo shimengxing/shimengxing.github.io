@@ -104,7 +104,7 @@ $ git@personal.github.com:xxx/xxx.git
 即可。现在git就会根据personal.github.com找到~/.ssh/id_rsa_personal，并使用其作为授权文件。
 
 ### Q&A
-如果此时直接使用新添加的personal账号，发现会报错，原因是这台设备现在还是使用着原先的工作帐号，需要切换账号
+如果此时使用新添加的personal账号push，发现提交用户还是之前的工作账号用户，原因是这台设备现在还是使用着原先的工作帐号，需要切换账号
 
 *控制台 cd ..会到根目录，vi .gitconfig文件，修改里面的Name和Email*
 
