@@ -51,14 +51,18 @@ $ vi config
 #default github 
 Host github.com
   HostName github.com
+  User git 
   IdentityFile ~/.ssh/id_rsa
 
 Host personal.github.com
   HostName github.com
+  User git 
   IdentityFile ~/.ssh/id_rsa_personal
   
-#Hose:别名
-#HostName:git托管的平台url。
+#Hose：别名，新的帐号就需要重新命名
+#HostName：git托管的平台url
+#User：用户，默认即可
+#IdentityFile：帐号对应的公钥文件，路径是固定的，唯一要改的就是末尾的文件名id_rsa改成新建的账号对应的文件名
 ```
 ### 5.验证连接
 
@@ -107,8 +111,8 @@ $ git@personal.github.com:xxx/xxx.git
 或者使用命令
 
 ```
-$ git config --global user.name "你的昵称"
-$ git config --global user.email "你的邮箱地址"
+$ git config --global user.name "昵称"
+$ git config --global user.email "邮箱地址"
 ```
 此时，就可以愉快的使用两个账号了。
 
